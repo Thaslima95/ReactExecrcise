@@ -1,0 +1,102 @@
+body {
+  background-color: #1f3641;
+  /* color: #1a2a33;
+  color: #1f3641;
+  color: #a8bfc9;
+  color: #dbe8ed;
+  color: #31c3bd;
+  color: #65e9e4;
+  color: #f2b137;
+  color: #ffc860; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+.maincontainer {
+  width: 350px;
+  height: 400px;
+  color: white;
+  /* border: 2px solid red; */
+}
+.colors {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.title {
+  border: 1px solid white;
+  width: 310px;
+  height: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.turn div {
+  width: 100px;
+}
+.turntitle {
+  background-color: #1a2a33;
+  width: 70px;
+  text-align: center;
+  border-radius: 5px;
+  color: #dbe8ed;
+  font-weight: 900;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 10px;
+}
+.grid-item {
+  background-color: #1a2a33;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 0px 5px #0f181c;
+}
+.you {
+  background-color: #31c3bd;
+  padding: 15px;
+  font-size: 14px;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+}
+.reverse {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 3px #c6e3ef;
+  font-weight: 900;
+}
+.ties {
+  background-color: #dbe8ed;
+  padding: 15px;
+  font-size: 14px;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+}
+.cpu {
+  background-color: #f2b137;
+  padding: 15px;
+  font-size: 14px;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+}
