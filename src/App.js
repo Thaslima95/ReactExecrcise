@@ -2,11 +2,15 @@ import './App.css';
 import ColorCode from './ColorCode';
 import Game from './Game';
 import Users from './UsersClass';
+import Example from './useMemo';
+import ExampleCallback from './useCallback';
 
 function App() {
   return (
     <div className="App">
-  <Game/>
+      {/* <Example/> */}
+      <ExampleCallback/>
+  {/* <Game/> */}
   {/* <Users/> */}
   {/* <ColorCode/> */}
     </div>
