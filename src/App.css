@@ -1,5 +1,5 @@
 body {
-  background-color: #1f3641;
+  background-color: white;
   /* color: #1a2a33;
   color: #1f3641;
   color: #a8bfc9;
@@ -13,6 +13,16 @@ body {
   align-items: center;
   align-content: center;
   height: 100vh;
+  color: black;
+}
+.Value {
+  font-size: 20px;
+}
+.subtimer {
+  display: flex;
+}
+.timer p {
+  font-size: 20px;
 }
 .maincontainer {
   width: 350px;
