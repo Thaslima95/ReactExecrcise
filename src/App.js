@@ -13,12 +13,12 @@ function App() {
   return (
     <div className="App">
       {/* <Parent/> */}
-      <Counter/>
+      {/* <Counter/> */}
       {/* <SampleEffect/> */}
       {/* <ComponentA/> */}
       {/* <Example/> */}
       {/* <ExampleCallback/> */}
-  {/* <Game/> */}
+  <Game/>
   {/* <Users/> */}
   {/* <ColorCode/> */}
     </div>
