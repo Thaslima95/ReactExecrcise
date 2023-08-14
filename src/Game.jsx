@@ -110,15 +110,15 @@ export default function Game() {
         >
           <Refresh size="25" onClick={reset} />
         </div>
-        <Suqare val={board[0]} chooseBox={() => chooseBox(0)} color={color} />
-        <Suqare val={board[1]} chooseBox={() => chooseBox(1)} color={color} />
-        <Suqare val={board[2]} chooseBox={() => chooseBox(2)} color={color} />
-        <Suqare val={board[3]} chooseBox={() => chooseBox(3)} color={color} />
-        <Suqare val={board[4]} chooseBox={() => chooseBox(4)} color={color} />
-        <Suqare val={board[5]} chooseBox={() => chooseBox(5)} color={color} />
-        <Suqare val={board[6]} chooseBox={() => chooseBox(6)} color={color} />
-        <Suqare val={board[7]} chooseBox={() => chooseBox(7)} color={color} />
-        <Suqare val={board[8]} chooseBox={() => chooseBox(8)} color={color} />
+        <Suqare val={board[0]} chooseBox={() => chooseBox(0)} />
+        <Suqare val={board[1]} chooseBox={() => chooseBox(1)} />
+        <Suqare val={board[2]} chooseBox={() => chooseBox(2)} />
+        <Suqare val={board[3]} chooseBox={() => chooseBox(3)} />
+        <Suqare val={board[4]} chooseBox={() => chooseBox(4)} />
+        <Suqare val={board[5]} chooseBox={() => chooseBox(5)} />
+        <Suqare val={board[6]} chooseBox={() => chooseBox(6)} />
+        <Suqare val={board[7]} chooseBox={() => chooseBox(7)} />
+        <Suqare val={board[8]} chooseBox={() => chooseBox(8)} />
         <div className="you">
           x(you)
           <br />0

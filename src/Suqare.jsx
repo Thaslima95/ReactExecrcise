@@ -1,8 +1,9 @@
 import React from "react";
 
-function Suqare({ val, chooseBox, color }) {
+function Suqare({ val, chooseBox }) {
+  const style = val == "X" ? "grid-itemboxx" : "grid-itemboxo";
   return (
-    <div className="grid-item" style={{ color: color }} onClick={chooseBox}>
+    <div className={style} onClick={chooseBox}>
       {val}
     </div>
   );
