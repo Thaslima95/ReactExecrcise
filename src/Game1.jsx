@@ -1,13 +1,10 @@
 import React from "react";
-import { Refresh } from "@styled-icons/foundation/Refresh";
 import { useState, useEffect } from "react";
 
 import Playerx from "./Playerx";
 import Playery from "./Playery";
 
 export default function Game1() {
-  const X = "X";
-  const O = "O";
   const [xIsNext, setXIsNext] = useState(true);
   const comibinations = [
     [0, 1, 2],
