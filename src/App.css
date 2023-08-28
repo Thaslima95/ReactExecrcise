@@ -30,6 +30,12 @@ body {
   color: white;
   /* border: 2px solid red; */
 }
+.maincontainer10 {
+  width: 1200px;
+  height: 400px;
+  color: white;
+  /* border: 2px solid red; */
+}
 .colors {
   width: 100px;
   height: 100px;
@@ -57,6 +63,11 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: 100px 100px 100px;
+  gap: 10px;
+}
+.grid-container10 {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
   gap: 10px;
 }
 .grid-itemboxx {

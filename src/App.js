@@ -9,6 +9,7 @@ import Counter from './Counter';
 import { SampleEffect } from './useEffect';
 import Parent from './Parent';
 import Game1 from './Game1';
+import Game2 from './Game2'
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <Example/> */}
       {/* <ExampleCallback/> */}
   {/* <Game/> */}
-  <Game1/>
+  {/* <Game1/> */}
+  <Game2/>
   {/* <Users/> */}
   {/* <ColorCode/> */}
     </div>
