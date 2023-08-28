@@ -7,7 +7,8 @@ import ExampleCallback from './useCallback';
 import ComponentA from './useContext';
 import Counter from './Counter';
 import { SampleEffect } from './useEffect';
-import Parent from './Parent'
+import Parent from './Parent';
+import Game1 from './Game1';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <ComponentA/> */}
       {/* <Example/> */}
       {/* <ExampleCallback/> */}
-  <Game/>
+  {/* <Game/> */}
+  <Game1/>
   {/* <Users/> */}
   {/* <ColorCode/> */}
     </div>
