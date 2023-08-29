@@ -310,23 +310,29 @@ export default function Game2() {
   };
   return (
     <div className="maincontainer10">
-      <div>
-        <span style={{ fontSize: "20px", fontWeight: "900", color: "#31c3bd" }}>
-          X
-        </span>{" "}
-        <span style={{ fontSize: "20px", fontWeight: "900", color: "#f2b137" }}>
-          O
-        </span>
-      </div>
-      <div className="turntitle">
-        {player}
-        <span style={{ fontSize: "10px" }}> &nbsp;Turn </span>
-      </div>
-      <div
-        className="reverse"
-        style={{ background: "#dbe8ed", color: "black" }}
-      >
-        <Refresh size="25" onClick={reset} />
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <div>
+          <span
+            style={{ fontSize: "20px", fontWeight: "900", color: "#31c3bd" }}
+          >
+            X
+          </span>{" "}
+          <span
+            style={{ fontSize: "20px", fontWeight: "900", color: "#f2b137" }}
+          >
+            O
+          </span>
+        </div>
+        <div className="turntitle">
+          {player}
+          <span style={{ fontSize: "10px" }}> &nbsp;Turn </span>
+        </div>
+        <div
+          className="reverse"
+          style={{ background: "#dbe8ed", color: "black" }}
+        >
+          <Refresh size="25" onClick={reset} />
+        </div>
       </div>
       <div className="grid-container10">
         {[...new Array(100)].map((e, idx) => (
